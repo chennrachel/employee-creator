@@ -1,0 +1,61 @@
+.Info {
+    display: flex;
+    justify-content: space-between;
+    height: 30px;
+    padding-bottom: 50px;
+}
+
+.Header {
+    color: #22252f;
+}
+
+.Description {
+    color: #424141;
+}
+
+.Button {
+    border-radius: 8px;
+    border: 1px solid transparent;
+    padding: 0px 40px;
+    font-size: 15px;
+    color: white;
+    background-color: #2d5299;
+    cursor: pointer;
+    transition: border-color 0.25s;
+    &:hover {
+        border-color: #646cff;
+    }
+}
+
+.Tile {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.EmployeeDetails {
+    color: #4d4c4c;
+    &Name {
+        font-weight: bold;
+    }
+}
+
+.Options {
+    color: #3f6589;
+    font-weight: bold;
+    display: flex;
+    justify-content: space-around;
+    p {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+}
+
+.Option {
+    cursor: pointer;
+}
+
+.Remove {
+    height: 20px;
+    border-left: 1px #8895a1 solid;
+}

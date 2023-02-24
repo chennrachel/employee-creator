@@ -1,0 +1,95 @@
+.Back {
+    color: #696868;
+    cursor: pointer;
+}
+
+.Heading {
+    padding-bottom: 50px;
+}
+
+.Button {
+    border-radius: 8px;
+    border: 1px solid grey;
+    margin: 30px 5px;
+    padding: 7px 60px;
+    font-size: 15px;
+    color: #504f4f;
+    cursor: pointer;
+    transition: border-color 0.25s;
+    &:hover {
+        border-color: #646cff;
+    }
+}
+
+.Save {
+    background-color: #2d5299;
+    color: white;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    padding: 10px 0px;
+    font-size: 12px;
+    font-weight: bold;
+    color: #343434;
+}
+
+input {
+    color: #575757;
+}
+
+.Dates {
+    display: flex;
+    &Title {
+        font-size: 12px;
+        font-weight: bold;
+    }
+}
+
+.DMY {
+    display: flex;
+    flex-direction: column;
+    padding-left: 10px;
+    &__Input {
+        height: 17px;
+        border-radius: 10%;
+        padding: 5px;
+        &__Number {
+            width: 50px;
+        }
+        &__DropDown {
+            font-size: 15px;
+            height: 32px;
+            width: 150px;
+            color: black;
+        }
+    }
+}
+
+.Checkbox {
+    padding: 15px 0px;
+    font-size: 14px;
+    color: #343434;
+}
+
+.RadioGroup {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+}
+
+.RadioOption {
+    display: flex;
+    align-items: center;
+    height: 30px;
+    &Text {
+        font-size: 14px;
+        text-align: center;
+        padding-left: 10px;
+        color: #575757;
+    }
+}
